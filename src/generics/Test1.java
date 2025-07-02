@@ -25,10 +25,11 @@ class Tester1{
         System.out.println(integerTest1.getMessage());
 
         ArrayList<String> listStrings = new ArrayList<>();
-        listStrings.
+        listStrings.add("Hello");
+//        String elementTwo = getSecond(listStrings);
     }
 
-    public <T extends Number> T getSecond(ArrayList<T> list){
+    public static <T extends Number> T getSecond(ArrayList<T> list){
         return list.get(1);
     }
 }
