@@ -1,9 +1,9 @@
-package collections;
+package collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArayListExample3 {
+public class ArrayListExample3 {
     public static void main(String[] args) {
 // remove all
         List<String> list = new ArrayList<>();
