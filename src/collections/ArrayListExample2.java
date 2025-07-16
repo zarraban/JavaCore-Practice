@@ -1,6 +1,5 @@
 package collections;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 
@@ -16,5 +15,8 @@ public class ArrayListExample2 {
         List<StringBuilder> list= Arrays.asList(stringBuilder1);
         //or
         List<StringBuilder> list1= List.of(stringBuilder1);
+
+        System.out.println(list);
+        System.out.println(list1);
     }
 }
